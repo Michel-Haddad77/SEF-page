@@ -1,0 +1,57 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/presentation.JPG);
+    background-size: cover;
+    padding-left: 10%;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.topnav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 28%;
+    margin-top: 2%;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+}
+
+.applynow{
+    background-color: #0d0;
+    padding: 1%;
+    border-radius:10px;
+}
+
+.intro{
+    margin-top: 15%;
+    margin-right: 60%;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.im-with-nav{
+    display:flex;
+}
+
+button{
+    font-size: medium;
+    padding: 2%;
+    background-color: #0d0;
+    color: white;
+    border-color: #0d0;
+    font-weight: bold;
+    border-radius: 5px;
+}
