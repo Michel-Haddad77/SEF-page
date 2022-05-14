@@ -1,8 +1,10 @@
 .head{
     display: flex;
     flex-direction: column;
-    background: url(../assets/presentation.JPG);
+    background: rgba(34, 33, 33, 0.5) url(../assets/presentation.JPG);
+    height: 100%;
     background-size: cover;
+    background-blend-mode: darken;
     padding-left: 7%;
     padding-top: 1%;
 }
@@ -122,3 +124,28 @@ button{
     display: flex;
     width: 100%;
 }
+
+.section6{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.section6 h4{
+    font-size: 2em;
+    word-wrap: break-word; 
+    margin-left: 15%; 
+    margin-right: 15%; 
+}
+
+.section6 p{
+    font-size: larger;
+}
+
+.review{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
