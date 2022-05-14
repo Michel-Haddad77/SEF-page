@@ -149,3 +149,19 @@ button{
     margin-right: 20%;
 }
 
+.media{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 2em;
+}
+
+.media-im{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
