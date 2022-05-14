@@ -211,3 +211,14 @@ hr{
 .subscribe-button:hover{
     opacity: 0.8;
 }
+
+.end{
+    display: flex;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
