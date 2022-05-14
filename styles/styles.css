@@ -52,7 +52,7 @@ body{
     display:flex;
 }
 
-button{
+.learn-morebutton{
     font-size: medium;
     padding: 2%;
     background-color: #0d0;
@@ -175,4 +175,39 @@ button{
 
 hr{
     border-color: black;
+}
+
+.strategic{
+    text-align: center;
+    font-size: 2em;
+}
+
+.strategic-im{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.subscribe{
+    background-color: lightgray;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.subscribe-button{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.subscribe-button:hover{
+    opacity: 0.8;
 }
