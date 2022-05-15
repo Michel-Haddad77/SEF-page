@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background: rgba(34, 33, 33, 0.5) url(../assets/presentation.JPG);
-    height: 100%;
+    min-height: 0;
     background-size: cover;
     background-blend-mode: darken;
     padding-left: 7%;
@@ -11,9 +11,7 @@
 
 body{
     font-family: Roboto;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0%;
 }
 
 .topnav{
@@ -29,6 +27,10 @@ body{
     align-items: center;
 }
 
+.bun{
+    display: none;
+}
+
 .topnav a{
     color: white;
     text-decoration: none;
@@ -37,7 +39,7 @@ body{
 .applynow{
     background-color: #0d0;
     padding: 1%;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .intro{
@@ -50,6 +52,7 @@ body{
 
 .im-with-nav{
     display:flex;
+    padding-top: 1%;
 }
 
 .learn-morebutton{
@@ -89,17 +92,17 @@ body{
 
 .section3{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
     padding-left: 10%;
     padding-right: 10%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 3%;
 }
 
 .section3 div{
     word-wrap: break-word;
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .section3 div a{
@@ -194,7 +197,7 @@ hr{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     margin-top: 3%;
     text-align: center;
     font-size: 2em;
@@ -222,3 +225,59 @@ hr{
     align-items: center;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width: 800px){
+    .topnav{
+        display: none;
+    }
+
+    .bun{
+        display: block;
+        color: grey;
+        margin-left: 80%;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+
+    .section3{
+        flex-direction: column;
+    }
+    .section3 div{
+        width: 100%;
+    }
+
+    .section4 div{
+        flex-direction: column;
+    }
+
+    .review{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .media-im{
+        flex-direction: column;
+    }
+
+    .strategic-im{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .end{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .end strong{
+        align-self: center;
+    }
+
+    .end nav{
+        align-self: flex-end;
+    }
+}
